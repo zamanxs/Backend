@@ -1,0 +1,9 @@
+** So, if we clone or any other person clones our repo or wants to simply use our code - they just need to go the package.json file and run the command 'npm install' in the terminal and all the dependencies will be installed.**
+
+to intall any dev dependencies we use the command 'npm i nodemon -D' or we can use --save-dev instead of -D
+
+In the script file we can customize our start commands or any other commands according to our needs and ease of usage.
+nodemon automatically restarts our app always and we have to run the script commands of nodemon like - 'npm run <command name>'
+
+we can simply uninstall using the uninstall command with npm or go with nuclear approach which is to manually delete the node_modules, removing the lock-json file and removing the dependency from the package.json file. And then run npm install in the terminal.
+
